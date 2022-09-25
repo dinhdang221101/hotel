@@ -6,6 +6,13 @@
         protected $modelsOrder;
         protected $views;
         
+        // public function __construct(){
+        //     $this->modelsAdmin = $this->model('admin');
+        //     $this->modelsGuest = $this->model('Guest');
+        //     $this->modelsRoom = $this->model('Room');
+        //     $this->modelsOrder = $this->model('Order');
+        // }
+
         public function __construct(){
             $this->modelsAdmin = $this->model('admin');
             $this->modelsGuest = $this->model('Guest');
